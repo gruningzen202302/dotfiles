@@ -1,0 +1,28 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+g ctrl+g",
+    "command": "gitSemanticCommit.semanticCommit"
+  },
+  {
+    "key": "ctrl+p ctrl+p",
+    "command": "git.sync"
+  },
+  {
+    "key": "ctrl+w ctrl+q",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "cmd+s",
+    "command": "-workbench.action.files.save"
+  },
+  {
+    "key": "ctrl+' ctrl+'",
+    "command": "workbench.action.openQuickChat.copilot"
+  },
+  {
+    "key": "ctrl+; ctrl+;",
+    "command": "workbench.action.files.saveFiles"
+  }
+]
+
