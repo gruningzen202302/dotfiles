@@ -1,0 +1,35 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+j ctrl+j",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+; ctrl+;",
+        "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "ctrl+g ctrl+g",
+        "command": "gitSemanticCommit.semanticCommit"
+    },
+    {
+        "key": "ctrl+p ctrl+p",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+r ctrl+t",
+        "command": "testing.debugAtCursor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+; ctrl+c",
+        "command": "-testing.debugAtCursor",
+        "when": "editorTextFocus"
+    }
+]
